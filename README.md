@@ -74,11 +74,3 @@ index=<your_index_name> sourcetype=<your_sourcetype_name> (dest_ip=<known_ransom
 index=<your_index_name> sourcetype=<your_sourcetype_name> (action=encrypt OR action=decrypt) status=success
 <! ---Look for increased logon activity during non-business hours--->
 index=<your_index_name> sourcetype=<your_sourcetype_name> (action=logon OR action=auth) NOT time_hour=8-17
-
-<! --- Wrap text --->
-<! --- Wrap text --->
-<! --- Wrap text --->
-<! --- Wrap text --->
-<! --- Wrap text --->
-<! --- Wrap text --->
-<! --- Wrap text --->
